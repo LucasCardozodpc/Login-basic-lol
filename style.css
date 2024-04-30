@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.left-login >h1{
+  font-size:3vw;
+  color: #77ffc0;
+}
+right-login{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card-login{
+width:60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px 25px;
+background-blend-mode: color-burn;
+border-radius: 50px;
+box-shadow: 10px 10px 60px #000000;
+}
+.card-login> h1{
+  Color: #fff2f2;
+  font-weight: 800;
+  margin:0;
+}
+
+.textfiel{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  margin: 10px 0px;
+}
+
+.textfiel > input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #1e1c22;
+  color: #000000de;
+  font-size: 12pt;
+  box-shadow: 10px 10px 40px #000000;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield> label{
+color: #f0ffffde;
+margin-bottom: 10px;
+}
+
+.textfiel > input::placeholder{
+  color: #000000
+}
+
+.btn-login{
+ width: 60%;
+ padding : 10px 0px;
+ margin: 50px;
+ border: none;
+ border-radius: 800px;
+ outline:none;
+ font-weight:730;
+letter-spacing: 3px;
+color: #000000;
+cursor: pointer;
+box-shadow: 0px 10px 40px -12px #03030352;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-login{
+    width: 85%
+  }
+}
+body {
+  background-image: url('https://pixewall.com/wp-content/uploads/2021/11/Free-League-of-Legends-Wallpapers.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
